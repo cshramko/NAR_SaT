@@ -1,4 +1,4 @@
-# NAT_SaT
+# NAR_SaT
 ## National Association of Rocketry Standards and Testing Committee Tools
 
 `motortest.py` is a tool to automate test stand data processing for a single file or a testing session, including:
