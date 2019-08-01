@@ -1,0 +1,34 @@
+# NAR SaT Motor Test Data File Format (.DAT) (whitespace sep for regex processing)
+#field_name             type    row units       comments
+file_name               str     1   <=8char     file name without extension
+operator                str     2   undef       operator of test stand
+mfg                     str     3   undef       motor manufacturer (should be used consistently)
+test_time               str     4   isodate     time of motor test run
+test_date               str     5   isodate     date of motor test run
+site_elevation          int     6   undef       elevation of motor test site (m)
+motor_type              str     7   undef       manufacturer motor type string (omit delay digits)
+casing_code             str     8   undef       casing code from reload or test motor
+propellant_type         str     9   undef       [what are options (should be used consistently)]
+propellant_mass         float   10  g           manufacturer provided
+casing_diameter         int     11  mm
+casing_length           int     12  mm
+initial_mass            float   13  g
+burned_out_mass         float   14  g
+test_temperature        float   15  C
+max_casing_temperature  float   16  C
+number_data_points      int     17  undef       number of data points in file
+ejection_delay          int     18  undef       delay between motor burnout and ejection charge
+max_liftoff_weight      str     19  undef       manufacturer recommended maximum liftoff weight, units as provided, or calc 5/1 (g)
+reserved_7              undef   20  undef       [reserved for future use]
+reserved_6              undef   21  undef       [reserved for future use]
+reserved_5              undef   22  undef       [reserved for future use]
+reserved_4              undef   23  undef       [reserved for future use]
+reserved_3              undef   24  undef       [reserved for future use]
+reserved_2              undef   25  undef       [reserved for future use]
+reserver_1              undef   26  undef       [reserved for future use]
+graph_points_per_sec    int     27  undef       this times data_point_averaging = scan_rate_sec
+max_test_length         int     28  s           max length of test in seconds
+data_point_averaging    int     29  undef       this times graph_points_per_sec = scan_rate_sec
+scan_rate_per_sec       int     30  undef       scan rate / second
+<data_point>            float   31  N           first data point
+
