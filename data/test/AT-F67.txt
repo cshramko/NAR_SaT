@@ -1,0 +1,32 @@
+
+Motor Type:          F67-6W
+Manufacturer:        AERO
+Delays:              XXX
+
+Propellant Type:     XXX
+Propellant Mass:     -1
+Mass After Firing:   -1
+
+Casing Diameter:     -1
+Casing Length:       -1
+Casing Code:         XXX
+
+File Name:           AT-F67
+Date Tested:         10-29-2017 15:22:19
+
+Total Impulse:       61.54
+Peak Thrust:         86.16
+Burn Time:           0.98
+Average Thrust:      62.54
+Ejection Delay:      6.15
+
+Data Noise (+/-):    0.521
+
+Processing Date:     2019-05-19 21:19:12
+Certification Type:  Model Rocket
+Processing Result:   OK
+
+Comments:            None
+
+Note: XXX or -1 indicates no value provided or available.
+

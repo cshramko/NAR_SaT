@@ -1,0 +1,7 @@
+# see also: https://realpython.com/python-application-layouts/
+# see also: https://gregoryszorc.com/blog/2018/12/18/distributing-standalone-python-applications/
+# see also: https://realpython.com/pyinstaller-python/
+# see also: https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-python-applications
+# see also: https://docs.python-guide.org/dev/virtualenvs/
+# see also: https://nsls-ii.github.io/scientific-python-cookiecutter/environments.html
+# see also: https://towardsdatascience.com/comparing-python-virtual-environment-tools-9a6543643a44
